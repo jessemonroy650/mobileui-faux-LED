@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <!-- 2015-06-18 - ADDED xmlns:android so the Android properties can be extended -->
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:android   = "http://schemas.android.com/apk/res/android"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.bsdmasterindex.phonegapgeneric-boilerplate"
+        version     = "1.2.2"
+        versionCode = "10" >
+        <!-- versionCode is optional and Android only -->
+        <preference name="phonegap-version" value="3.5.0" />
+
+        <name>Phonegap Generic Boilerplate #2</name>
+        <description>Simple Generic Boilerplate #2</description>
+        <author href="http://bsdmasterindex.com" email="jessemonroy650@yahoo.com">
+        Jesse Monroy
+        </author>
+
+        <!-- Android SECTION -->
+        <gap:platform name="android" />
+        <gap:config-file platform="android" parent="/manifest/application" >
+            <!-- Add Android extensions here. SEE: http://docs.build.phonegap.com/en_US/configuring_config_file_element.md.html#Config%20File%20Elements -->
+        </gap:config-file>
+
+        <!-- iOS SECTION -->
+        <gap:platform name="ios" />
+        <gap:config-file target="*-Info.plist" parent="CFBundleURLTypes">
+            <!-- Add iOS extensions here. SEE: http://docs.build.phonegap.com/en_US/configuring_config_file_element.md.html#Config%20File%20Elements -->
+        </gap:config-file>
+
+        <!-- App requested permission -->
+        <preference name="permissions" value="none"/>
+
+        <!-- PLUGINS PLUGINS -->
+        <!-- device required so we can detect if we are using iOS -->
+        <gap:plugin name="org.apache.cordova.device" />
+
+    </widget>

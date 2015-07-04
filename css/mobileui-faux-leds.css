@@ -1,0 +1,24 @@
+/* controls button & button holder borders */
+.boxoff {padding:0;margin:0;}
+.boxy {padding:0;margin:0;border:solid black 1px;}
+
+/* This is the main buttons control. */
+.wrapper {align-content:center;display:inline-block;margin:0 2em;cursor:pointer;}
+
+/* http://davidwalsh.name/css-circles */
+.circle {
+border-radius:50%; 
+width:1em; height:1em;
+/* below here specific to this program */
+background-color: white;
+margin:7px;
+display:inline-block; /* this makes the LEDS side-by-side, instead of stacked */
+}
+
+.red {background-color: red;}
+.green {background-color: #44ff44;}
+.blue {background-color: #4444ff;}
+
+/* Setup for phones and small screens only */
+@media only screen and (max-width:320px) {
+}
