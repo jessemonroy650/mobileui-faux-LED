@@ -3,14 +3,14 @@
     <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:android   = "http://schemas.android.com/apk/res/android"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.bsdmasterindex.phonegapgeneric-boilerplate"
-        version     = "1.2.2"
+        id          = "com.bsdmasterindex.phonegap-mobileui-faux-leds"
+        version     = "1.0"
         versionCode = "10" >
         <!-- versionCode is optional and Android only -->
         <preference name="phonegap-version" value="3.5.0" />
 
-        <name>Phonegap Generic Boilerplate #2</name>
-        <description>Simple Generic Boilerplate #2</description>
+        <name>mobileui Faux LEDS test</name>
+        <description>some simple simulated LEDs</description>
         <author href="http://bsdmasterindex.com" email="jessemonroy650@yahoo.com">
         Jesse Monroy
         </author>
