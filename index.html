@@ -22,13 +22,16 @@
     var firstTime = 1;
     function onButtonClick() {
         //alert("button clicked.");
-        //LEDS.timedRotate();
         if (firstTime === 1) {
             firstTime = 0;
             LEDS.init();
         } else {
             LEDS.rotate();
         }
+    }
+    function onButtonClick2() {
+        //alert("button clicked.");
+        LEDS.timedRotate();
     }
     // Wait for PhoneGap to load
     document.addEventListener("deviceready", onDeviceReady, false);
@@ -69,6 +72,8 @@
     <div id=LED_2 class="circle">&nbsp;</div>
     <div id=LED_3 class="circle">&nbsp;</div>
 </div>
+<hr />
+<button onclick='onButtonClick2()' class="button button-pill button-action button-large">timed</button>
 
 <div class="copyright" style="padding:5px;align:left;font-style:italic;font-size:small;">
     <span id=copyright>Created by Jesus Monroy, Jr. &copy; 2015</span>
