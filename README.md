@@ -1,7 +1,7 @@
 # mobileui-faux-LED
 some simple simulated LEDs
 
-Three LEDS, red, green, &amp; blue, that timed rotation or manual rotation.
+Three LEDS (red, green, &amp; blue) that timed rotation or manual rotation.
 
 **Required files**
 * css/mobile-faux-leds.css
